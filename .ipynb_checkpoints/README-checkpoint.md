@@ -40,10 +40,6 @@ During of training I didn’t know model performance, whether accuracy is accept
 
 
 ### Results
-**TODO**: What are the results/insights did you get by profiling/debugging your model?
-
-**TODO** Remember to provide the profiler html/pdf file in your submission.
-
 I have tried a few training jobs, here is summary with metrics and insights of last training job: 
 From shown information about trained job, built model is not overfitted, some errors are in overtraining, so need more investigate to weight initialization, probably running on GPU may impact(trigger error, so was used cpu)
 ![Alt text](training_metrics.png?raw=true "training_metrics.png")
